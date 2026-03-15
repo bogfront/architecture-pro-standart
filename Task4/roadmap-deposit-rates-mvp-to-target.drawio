@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2026-03-14T21:55:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="roadmap" name="Roadmap 6m-12m">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="2" value="RoadMap: MVP (6 месяцев) + целевое состояние (12 месяцев)" style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=20;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="20" y="20" width="900" height="30" as="geometry"/></mxCell>
+
+        <mxCell id="3" value="M1-M3" style="shape=hexagon;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="220" y="70" width="260" height="50" as="geometry"/></mxCell>
+        <mxCell id="4" value="M4-M6 (MVP)" style="shape=hexagon;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="480" y="70" width="260" height="50" as="geometry"/></mxCell>
+        <mxCell id="5" value="M7-M9" style="shape=hexagon;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="740" y="70" width="260" height="50" as="geometry"/></mxCell>
+        <mxCell id="6" value="M10-M12 (Target)" style="shape=hexagon;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1"><mxGeometry x="1000" y="70" width="300" height="50" as="geometry"/></mxCell>
+
+        <mxCell id="10" value="АБС" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="20" y="140" width="180" height="120" as="geometry"/></mxCell>
+        <mxCell id="11" value="Сервис публикации ставок" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="20" y="270" width="180" height="120" as="geometry"/></mxCell>
+        <mxCell id="12" value="Кол-центр банка" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="20" y="400" width="180" height="120" as="geometry"/></mxCell>
+        <mxCell id="13" value="Партнёрский КЦ" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="20" y="530" width="180" height="120" as="geometry"/></mxCell>
+        <mxCell id="14" value="Инфраструктура/ИБ" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="20" y="660" width="180" height="120" as="geometry"/></mxCell>
+
+        <mxCell id="20" value="T1: Модуль ставок в АБС\n(модель данных, роли, workflow)" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="230" y="160" width="360" height="80" as="geometry"/></mxCell>
+        <mxCell id="21" value="T2: Публикация подтвержденных ставок\nв интеграционный контур" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="600" y="160" width="260" height="80" as="geometry"/></mxCell>
+        <mxCell id="22" value="T3: Автоматизация без ручных согласований\n(целевое состояние)" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="960" y="160" width="320" height="80" as="geometry"/></mxCell>
+
+        <mxCell id="23" value="T1: Intake + валидация + Rates DB" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="230" y="290" width="300" height="80" as="geometry"/></mxCell>
+        <mxCell id="24" value="T2: Публикация во внутренний КЦ\n+ журнал и ретраи" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="540" y="290" width="300" height="80" as="geometry"/></mxCell>
+        <mxCell id="25" value="T3: Файлы для партнёра\n(CSV/XLSX, checksum, шифрование)" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="770" y="290" width="320" height="80" as="geometry"/></mxCell>
+        <mxCell id="26" value="T4: Self-service конфигурация каналов\nи SLA-политик" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="1100" y="290" width="230" height="80" as="geometry"/></mxCell>
+
+        <mxCell id="27" value="T1: Экран актуальных ставок\nв рабочем месте оператора" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="320" y="420" width="320" height="80" as="geometry"/></mxCell>
+        <mxCell id="28" value="T2: Контроль версии/времени\nактуальности" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="680" y="420" width="260" height="80" as="geometry"/></mxCell>
+
+        <mxCell id="29" value="T1: Согласование формата и регламента\nприёма файлов" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="230" y="550" width="300" height="80" as="geometry"/></mxCell>
+        <mxCell id="30" value="T2: Загрузка файла в систему партнёра\n+ подтверждение получения" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="540" y="550" width="350" height="80" as="geometry"/></mxCell>
+        <mxCell id="31" value="T3: Полуавтоматическая сверка\nрасхождений версий" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1"><mxGeometry x="940" y="550" width="290" height="80" as="geometry"/></mxCell>
+
+        <mxCell id="32" value="T1: Защищённый файловый канал\nи ключи шифрования" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="230" y="680" width="300" height="80" as="geometry"/></mxCell>
+        <mxCell id="33" value="T2: Мониторинг SLA публикаций\nи алерты" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="560" y="680" width="300" height="80" as="geometry"/></mxCell>
+        <mxCell id="34" value="T3: DR/Failover и регламент\nвосстановления" style="shape=rectangle;rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1"><mxGeometry x="920" y="680" width="280" height="80" as="geometry"/></mxCell>
+
+        <mxCell id="35" value="MVP готов в конце M6" style="shape=note;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1"><mxGeometry x="620" y="820" width="220" height="60" as="geometry"/></mxCell>
+        <mxCell id="36" value="Целевое состояние к M12" style="shape=note;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="1010" y="820" width="220" height="60" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
